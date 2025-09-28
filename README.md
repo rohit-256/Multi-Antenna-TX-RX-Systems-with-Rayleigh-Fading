@@ -11,7 +11,7 @@ M - number of points in the constellation
 
 main2.m considers the case where the receiver is designed based on the channel gain obtained at time t,
 but the transmission happens at time t+kTs, where Ts is the symbol duration and k is some integer.
-The receiver moves with a speed of v m/sec and the carrier frequency is fc Hz. The channels vary
+The receiver moves relative to the trasmitter and the channels vary
 with time as per Jakes’s correlation model
 
 main2(scheme,L,modln,M,v,fc)
